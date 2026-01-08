@@ -39,18 +39,22 @@
         font-weight: 300;}
 
         .portal-btn:hover {
-        background-color: #163a66;
-        color: rgb(38, 35, 35);}
+        background-color: #8dc0ff;
+        color: rgb(0, 89, 255);}
 
         .navbar-brand img{
           height:55px;
           width:auto;
         }
 
+        .nav-link:hover {
+        color: #007be7;}
+
         .hero{
           background-image: url('Home page.png');
           background-size: cover;
           background-repeat: no-repeat;
+          
           
         }
 
@@ -67,7 +71,7 @@
 
         p{
           font-family: "DM Sans", sans-serif;
-          font-weight: 250;
+          font-weight: normal;
           font-size:20px;
           padding-bottom: 80px
         }
@@ -78,16 +82,76 @@
 
         .philosophy{
           padding-top:40px;
+          background-image: url('philo bg.png');
+          height:450px;
+        background-size: cover;
+        background-repeat: no-repeat;          
+
         }
 
         .philosophy h1,.philosophy h4{
-          color:#0350b2;
+          color:#ffffff;
+        font-family:"Josefin Sans", sans-serif; 
+        text-align: center;
+        }
+
+        .philosophy h1{
+            padding-top:60px;
         }
 
         .philosophy p{
           text-align:justify;
-          width:1200px
+          margin:auto;
+          width:1000px;
+          color:white;
+        
         }
+
+        .about-us{
+            text-align:center;
+            height: 700px;
+        }
+
+
+        .about-us h1{
+          color:#ffa63d;
+          font-family:"Josefin Sans", sans-serif;
+          font-size:90px;
+          font-weight: bold;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+          margin-left:80px;
+          padding-top:140px;
+          text-align:center;
+        }
+
+        .about-us p{
+        width:670px;
+        text-align:justify;
+        margin-left:120px;
+        font-family: "DM Sans", sans-serif;
+        font-weight: normal;        
+        }
+
+        .about-us-img{
+            height:570px;
+            width:auto;
+            padding-top:100px;
+            margin-right:200px;
+        }
+
+        .footer{
+            padding-top:45px;
+            box-shadow:0 -2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-logo{
+            width:900px;
+            height:auto;
+        }
+
+
+
+      
        
     </style>
 </head>
@@ -129,23 +193,23 @@
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
         <li class="nav-item">
-          <a class="nav-link" href="page2.html">Home</a>
+          <a class="nav-link" href="ICT Project.html">Home</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="page3.html">Courses Offer</a>
+          <a class="nav-link" href="courses.html">Courses Offer</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="page4.html">Enrollment</a>
+          <a class="nav-link" href="enroll.html">Enrollment</a>
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="page5.html">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="page5.html">Developers</a>
+          <a class="nav-link" href="developers.html">Developers</a>
         </li>
 
         <li class="nav-item">
@@ -156,7 +220,6 @@
 
   </div>
   </nav>
-  <section class="hero"></section>
   <!-- navbar --> 
 
 
@@ -182,4 +245,54 @@
     At O.B Montessori Center, this motto captures the heart of our philosophy: Every child has the power to shape their own future. We believe that education is to guide them to discover who they are and who they can become. Our students are aided to grow into capable, compassionate individuals—ready to lead, adapt, and change the world. 
     </p>
   </div>
+</div>
+
+<!-- ABOUT US section -->
+<div class="about-us">
+  <div class="container-fluid">
+    <div class="row align-items-center justify-content-between">
+    <div class="col-7">
+        <h1 class="text-center">ABOUT OBMC</h1>
+
+        <p>
+        At OBMC, we are deeply committed to the philosophy and educational
+        method developed by Dr. Maria Montessori.
+        <br><br>
+        The Montessori education emphasizes independence, freedom with
+        responsibility, and respect for the child’s intellectual, spiritual,
+        and social development. Children learn through exploration,
+        manipulation, order, repetition, abstraction, and communication.
+        </p>
+        
+        <p><kbd class="bg-secondary text-white fs-6">Learn more about O.B Montessori's History</p></kbd>
+    </div>
+    
+
+    <div class="col-5">
+        <img class="about-us-img" src="about us pic.png" alt="Description of the image">
+    </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- FOOTER section -->
+<div class="footer">
+    <div class="container">
+
+        <div>
+        <img class="footer-logo" src="footer.png" alt="Description of the image">
+        </div>
+
+        <div class="row gap-3 justify-content-center">
+            <h1><U>Connect With Us</U></h1>
+            <ul class="list-unstyled">
+                <li>Contact OBMC</li>
+                <li>Social Media</li>
+                <li>Office</li>
+            </ul>
+        </div>      
+    </div>
 </div>
