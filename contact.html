@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OBMC Website Group 3</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css";; rel="stylesheet">
-    
-   <!--link for fonts--> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css";; rel="stylesheet">
+
+     <!--link for fonts--> 
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <style>
@@ -15,6 +15,7 @@
         background-image: url('');
         background-size: cover;
         background-repeat: no-repeat;
+        overflow-x: hidden;
        }
 
         .top-bar{
@@ -50,11 +51,80 @@
         .nav-link:hover {
         color: #007be7;}
 
-       
-    </style>
-</head>
+        .header {
+        max-width: 1100px;
+        margin: 40px auto;
+        padding: 30px 20px;
+        text-align: center;
 
+    background: linear-gradient(
+            90deg,
+            #4f7cff 0%,
+            #9fb5b5 50%,
+            #f3e79b 100%
+            );
+
+    border-radius: 40px;
+        }
+
+        .header h1 {
+        margin: 0;
+        font-size: 36px;
+        font-weight: 700;
+        color: #ffffff;
+        }
+
+        .header p {
+        margin-top: 6px;
+        font-size: 14px;
+        color: #ffffff;
+        }
+
+ table thead.custom-thead th {
+        background-color: #0350b2;
+        color: #ffffff;
+        }
+
+                .footer{
+            margin-top:30px;
+            padding-top:45px;
+            box-shadow:0 -2px 8px rgba(0, 0, 0, 0.1);
+            padding-bottom:0px;
+            background-color: #f0f0f0;
+        }
+
+        .footer-logo{
+            width:1000px;
+            height:auto;
+            padding-left:40px
+        }
+
+        .footer-links{
+          padding-top:20px;
+          font-family:"DM Sans", sans-serif;
+          color:rgb(0, 0, 0)
+        }
+
+        .footer-links li{
+          color:#676767
+        }
+
+        .footer-bottom{
+          height: 40px;
+          background-color:#024987;
+          color:white;
+          text-align:center;
+          padding-top:10px;
+        }
+
+        .footer-bottom p{
+          font-size:20px;
+        }
+        </style>
+
+</head>
 <body>
+    
 
 <!-- navbar --> 
      <!--blue info part-->
@@ -73,6 +143,7 @@
       </div>
     </div>
   </div>
+
     <!--blue info part-->
     
     <!--white part-->
@@ -103,7 +174,7 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html"><u>Contact</u></a>
         </li>
 
         <li class="nav-item">
@@ -118,5 +189,216 @@
 
   </div>
   </nav>
-  <!-- navbar --> 
+  <!-- navbar -->
 
+<header class="header">
+    <h1>CONTACT US</h1>
+    <p>Operation Brotherhood Montessori Center</p>
+</header>
+
+
+
+<!-- CONTACT INFO SECTION -->
+<div id="contact-info" class="container my-5">
+
+  <div class="row text-center g-4">
+
+<div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5>Email</h5>
+          <p>info@obmontessori.edu.ph</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5>Phone Number</h5>
+          <p>+63 2 8722 9720 to 26</p>
+        </div>
+      </div>
+    
+
+    </div>    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <div class="card-body">
+          <h5>Address</h5>
+          <p>
+            3 Eisenhower St., Brgy. Greenhills<br>
+            San Juan City, Metro Manila
+          </p>
+        </div>
+    </div>
+    </div>
+  </div>
+
+
+
+  <!-- OFFICE HOURS -->
+  <div class="mt-5">
+    <h3 class="text-center mb-3">Office Hours</h3>
+    <table class="table table-bordered table-striped table-hover">
+    <thead class="custom-thead">
+    <tr class="text-center">
+        <th>Day</th>
+        <th>Time</th>
+        <th>Department</th>
+    </tr>
+    </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>8:00 AM – 4:00 PM</td>
+          <td>Registrar's Office</td>
+     </tr>
+    <tr>
+       <td>Tuesday</td>
+          <td>8:00 AM – 4:00 PM</td>
+         <td>Accounting Office</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>8:00 AM – 4:00 PM</td>
+          <td>Guidance Office</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>8:00 AM – 4:00 PM</td>
+          <td>Principal's Office</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>8:00 AM – 3:00 PM</td>
+     <td>Admin Office</td>
+        </tr>
+      </tbody>
+    </table>
+ </div>
+
+</div>
+
+<!-- CONTACT FORM SECTION -->
+<div id="contact-form" class="container my-5">
+
+  <div class="row g-4">
+
+    <!-- MAP -->
+    <div class="col-lg-6">
+      <iframe 
+     src="https://www.google.com/maps?q=OB%20Montessori%20Greenhills&output=embed"
+    class="w-100 rounded shadow"
+     height="400"
+        style="border:0;"
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <!-- FORM -->
+    <div class="col-lg-6">
+    <div class="card shadow">
+        <div class="card-body">
+
+        <h4 class="mb-3">Contact Form</h4>
+
+          <form>
+            <div class="row g-3">
+
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="First Name" required>
+              </div>
+
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Last Name" required>
+              </div>
+
+            <div class="col-12">
+                <input type="email" class="form-control" placeholder="Email" required>
+              </div>
+
+              <div class="col-12">
+                <input type="text" class="form-control" placeholder="Phone Number">
+              </div>
+
+              <div class="col-12">
+                <input type="text" class="form-control" placeholder="Campus">
+              </div>
+
+              <div class="col-12">
+            <input type="text" class="form-control" placeholder="Grade Level">
+              </div>
+
+              <div class="col-12">
+            <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+              </div>
+
+              <div class="col-12">
+            <button type="submit" class="btn btn-primary w-100">
+                  SUBMIT
+                </button>
+              </div>
+
+            </div>
+          </form>
+
+      </div>
+      </div>
+    </div>
+
+</div>
+
+</div>
+
+
+<!-- FOOTER section -->
+<div class="footer">
+    <div class="container-fluid">
+
+      <!-- logo -->
+        <div>
+        <img class="footer-logo" src="footer.png" alt="Description of the image">
+        </div>
+      <!-- links -->
+        <div class="row footer-links col-md-7 mx-auto ">
+          <div class="col-4">
+              <h5><U>Connect With Us</U></h5>
+              <ul class="list-unstyled">
+                  <li>Contact OBMC</li>
+                  <li>Social Media</li>
+                  <li>Office</li>
+              </ul>
+          </div>     
+          
+          <div class="col-4 ">
+              <h5><U>Quick Links</U></h5>
+              <ul class="list-unstyled">
+                  <li>Apply for Admission</li>
+                  <li>School Email Login</li>
+                  <li>Payment Centers</li>
+              </ul>
+          </div>     
+          
+          <div class="col-4">
+              <h5><U>School Campuses</U></h5>
+              <ul class="list-unstyled">
+                  <li>Angeles City, Pampanga</li>
+                  <li>Fairview, Quezon City</li>
+                  <li>Greenhills, San Juan City</li>
+                  <li>B.F. Homes, Las Piñas City</li>
+                  <li>Sta. Ana, Manila City</li>
+              </ul>
+          </div>      
+        </div>
+        <!-- copyrights -->
+          <div class="footer-bottom">
+          <h6>© Copyright 2025. O.B. Montessori. All Rights reserved. | Developed by 9S Group 1</h6>
+          </div>
+
+    </div>
+</div>
+
+
+
+</body>
+</html>
